@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Console';
+}
+a:link{
+    color: cyan;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+h1{
+    color: #00ff00;
+}
+h2{
+    color: red;
+}
+h3{
+    color: #3388ff;
+}
+.math{
+    font-family:'Trebuchet MS';
+    border-color: white;
+    border-style:solid;
+    margin:2px;
+}
