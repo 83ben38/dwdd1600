@@ -25,6 +25,10 @@ h3{
     color: #3388ff;
     font-weight: 400;
 }
+nav a{
+    text-decoration: none;
+    border-style: outset;
+}
 .math{
     font-family:'Trebuchet MS';
     border-color: white;
