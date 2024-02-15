@@ -38,10 +38,42 @@ nav a{
     padding: 2px;
     margin: 2px;
 }
+.problem .math{
+    display: inline-block;
+    
+}
 /*comment*/
 p{
     font-weight: 300;
     text-align: left;
+}
+figure.by{
+    display: flex;
+    margin: 0px;
+}
+figure.by img{
+    display: block;
+    align-self:center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+figure.problem img{
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: #ffffff;
+    border-width: 5%;
+}
+figure.problem figcaption{
+    text-align: center;
+    background-color: #000044;
+    color: #3388ff;
+    padding: 3%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 header{
     background-color: rgb(0, 0, 145);
@@ -49,6 +81,7 @@ header{
     border-style: groove;
     border-radius: 25px;
     border-width: 5px;
+    display: flex;
 }
 main{
     background-color: black;
@@ -57,6 +90,7 @@ main{
 footer{
     margin: 10px;
     background-color: #004400;
+    clear: both;
 }
 header h1 {
     color: white;
