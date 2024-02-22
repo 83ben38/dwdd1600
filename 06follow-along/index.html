@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Along</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Compatability Form
+        </h1>
+    </header>
+    <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>
+                    Name
+                </legend>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required autocomplete="given-name">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" required autocomplete="family-name">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Contact Info
+                </legend>
+                <label for="pnum">Phone Number:</label>
+                <input type="tel" name="pnum" id="pnum" autocomplete="tel">
+                <label for="checked">Do you live in the US?</label>
+                <input type="checkbox" name="checked" id="checked">
+                <fieldset>
+                    <legend>Address</legend>
+                    <label for="add1">Address Line 1:</label>
+                    <input type="text" name="add1" id="add1" required autocomplete="address-line1">
+                    <label for="add2">Address Line 2:</label>
+                    <input type="text" name="add2" id="add2" required autocomplete="address-line2">
+                    <label for="add1">Address Line 3:</label>
+                    <input type="text" name="add3" id="add3" required autocomplete="address-line3">
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" required autocomplete="address-level2">
+                    <label for="state">State:</label>
+                    <input type="text"name="state"id="state" required autocomplete="address-level1">
+                    <label for="zip">ZIP code:</label>
+                    <input type="text" name="zip" id="zip" required autocomplete="postal-code">
+                </fieldset>
+                
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+                <label for="bday">Birthday:</label>
+                <input type="date" name="bday" id="bday" required autocomplete="bday">
+                <label for="gender">Gender</label>
+                <div class="select">
+                    <input type="radio" name="gender" id="gender" value="Male" required autocomplete="sex">Male
+                    <input type="radio" name="gender" id="gender" value="Female" required autocomplete="sex">Female
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Credit Card Info
+                </legend>
+                <label for="ccName">Credit Card Name:</label>
+                    <input type="text" name="ccName" id="ccName" required autocomplete="cc-name">
+                    <label for="ccNum">Credit Card Number:</label>
+                    <input type="number" name="ccNum" id="ccNum" required autocomplete="cc-number">
+                    <label for="ccDate">Credit Card Expiration Date:</label>
+                    <input type="date" name="ccDate" id="ccDate" required autocomplete="cc-exp">
+                    <label for="ccCode">Credit Card Security Code:</label>
+                    <input type="number" name="ccCode" id="ccCode" required autocomplete="cc-csc">
+            </fieldset>
+            <input type="submit">          
+        </form>
+    </main>
+</body>
+</html>

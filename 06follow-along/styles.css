@@ -1,0 +1,44 @@
+body {
+    background-color: #040;
+    color: white;
+    font-family: 'Quicksand';
+    margin: 0px;
+}
+main{
+    background-color: black;
+    padding: 8px;
+}
+input {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}
+form.label{
+    margin: 1%;
+}
+input[type=submit]{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FFF;
+}
+input[type=submit]:focus{
+    border-color: #0FF;
+    border-style: dashed;
+}
+input:-webkit-autofill{
+    background-color: #044;
+    color: #0f0;
+}
+input:autofill {
+    background-color: #044;
+    color: #0f0;
+}
+.select input{
+    display: inline;
+}
+.select{
+    display: block;
+}
