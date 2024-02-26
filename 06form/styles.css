@@ -136,3 +136,42 @@ nav {
     background-color: rgb(0, 73, 78);
     padding: 4px;
 }
+input[type=submit]{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FFF;
+}
+input[type=submit]:focus{
+    border-color: #0FF;
+    border-style: dashed;
+}
+input {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}
+.select input{
+    display: inline;
+}
+.select{
+    display: block;
+}
+textarea {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}
+select {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}

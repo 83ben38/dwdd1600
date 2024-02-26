@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="author" content="Ben Blodgett">
+        <meta name="description" content="Learn calculus basics">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculus Basics: Help</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <!--Calculus is fun-->
+                Calculus Basics
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="examples.html">Practice Problems</a></li>
+                <li><a href="index.html">Derivatives</a></li>
+                <li><a href="integrals.html">Integrals</a></li>
+            </ul>
+        </nav>
+        <main>
+            <figure class="by">
+                <h1>
+                    Help
+                </h1>
+                <img loading="lazy" src="images/question.png" alt="?">
+            </figure>
+            <p>
+                Have any questions? Fill out this form to get help.
+            </p>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact info</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" required autocomplete="given-name">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" required autocomplete="family-name">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required autocomplete="email">
+                    <label for="pnum">Phone Number:</label>
+                    <input type="tel" name="pnum" id="pnum" autocomplete="tel">
+                </fieldset>
+                <fieldset>
+                    <legend>Problem Details</legend>
+                    <label for="type">Type of Problem:</label>
+                    <div class="select">
+                        <input type="radio" name="type" id="type" value="Derivative" required>Derivative
+                        <input type="radio" name="type" id="type" value="Integral" required>Integral
+                    </div>
+                    <label for="solve">What do you need help with?</label>
+                    <div class="select">
+                        <input type="checkbox" name="solve" id="solve"> Solving a problem
+                    </div>
+                    <div class="select">
+                        <input type="checkbox" name="question" id="question"> General Question
+                    </div>
+                    <div class="select">
+                        <input type="checkbox" name="other" id="other"> Other
+                    </div>
+                    <label for="problem">Describe your problem:</label>
+                    <textarea name="problem" id="problem" cols="30" rows="10" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Time frame</legend>
+                    <label for="time">What time frame can we contact you?</label>
+                    <select name="time" id="time" required>
+                        <option value="morning">6:00 AM - 12:00 PM</option>
+                        <option value="morning">12:00 PM - 6:00 PM</option>
+                        <option value="morning">6:00 PM - 12:00 AM</option>
+                        <option value="morning">12:00 AM - 6:00 AM</option>
+                    </select>
+                </fieldset>
+                <input type="submit"> 
+            </form>
+        </main>
+        <footer>
+            <address>930 500 E, Heber City, UT 84032</address>
+            <p>&copy; 2024 | Ben Blodgett, Cosmic Entity &bull;</p>
+            <a href="mailto:bb14738@ms.wasatch.edu">Email Me, I won't answer.</a>
+            <br>
+            <a href="tel:111-111-1111">Here's a fake phone number.</a>
+        </footer>
+    </body>
+</html>
