@@ -95,17 +95,18 @@ figure.by img{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-figure.problem{ 
-    img{
-        display: block;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-color: #ffffff;
-    }
-    img:hover{
-        box-shadow: 5px 5px 5px 5px #00ff00;
-    }
+figure.problem img{
+    
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: #ffffff;
 }
+
+figure.problem img:hover{
+    box-shadow: 5px 5px 5px 5px #00ff00;
+}
+
 
 figure.problem figcaption{
     text-align: center;
