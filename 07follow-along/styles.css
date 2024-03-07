@@ -41,6 +41,7 @@ nav ul{
     padding: 0px;
 }
 nav ul{
+    justify-content: center;
     background-color: darkblue;
     *{
         background-color: darkblue;
