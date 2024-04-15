@@ -1,0 +1,166 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Quicksand';
+    margin: 0px;
+}
+a:link{
+    color: #ffbf00;
+}
+a:hover{
+    color: #ffff00;
+}
+a:visited{
+    color: #E61B00;
+}
+h1{
+    color: #E68F00;
+    font-weight: 800;
+}
+h2{
+    color: #E59956;
+    font-weight: 600;
+}
+h3{
+    color: #E6AB00;
+    font-weight: 400;
+}
+@media  screen and (min-width:1000px) {
+    header,nav,main,footer{
+        margin-left: calc(50vw - 500px);
+    }
+}
+@media  screen and (max-width:376px) {
+    nav ul{
+        display: block;
+    }
+}
+header{
+    background-image: url(images/hero.webp);
+    background-size:cover
+}
+nav ul>li{
+    list-style-type: none;
+    margin: 1vmin;
+    padding: 1vmin;
+    border-style:inset;
+    border-radius:2vmin;
+    text-align: center;
+}
+header h1{
+    color: #000;
+    font-weight: 1000;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    padding:0px;
+}
+p{
+    font-weight: 300;
+    text-align: left;
+}
+header{
+    background-color: #E61B00;
+    border-color: #E6AB00;
+    border-style: groove;
+    border-radius: 25px;
+    border-width: 5px;
+    display: flex;
+}
+main{
+    background-color: black;
+    padding: 8px;
+}
+footer{
+    margin: 10px;
+    background-color: #E6AB00;
+    background-image: linear-gradient(#666666,#000000);
+    clear: both;
+}
+nav ul {
+    list-style-type:square;
+    background-color: #E59956;
+}
+ul{
+    list-style-type:circle;
+}
+ol{
+    list-style-type: upper-roman;
+}
+nav a{
+    font-size:larger;
+}
+dl, ul, ol{
+    background-color: #000000;
+    text-align: left;
+}
+nav {
+    background-color: #E68F00;
+    padding: 4px;
+}
+input[type=submit]{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000;
+}
+input[type=submit]:focus{
+    border-color: #FFF;
+    border-style: dashed;
+}
+input {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}
+textarea {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}
+select {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    margin: 1%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    background-color: rgb(0, 73, 78);
+    color: #fff;
+    padding: .5rem 2vw;
+}
+table td{
+    text-align: center;
+    padding: .4rem 2vw;
+    font-weight: 400;
+}
+table tr{
+    background-color: #030303;
+}
+table tr:nth-child(odd){
+    background-color: #232323;
+}
+table tr:hover{
+    background-color: rgba(31, 38, 105, 0.2);
+}
+.split{
+    display: flex;
+}
+.split *{
+    margin: 3px;
+}
