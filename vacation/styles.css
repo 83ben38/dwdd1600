@@ -25,6 +25,9 @@ h3{
     color: #E6AB00;
     font-weight: 400;
 }
+header, nav, main, footer{
+    max-width: 1000px;
+}
 @media  screen and (min-width:1000px) {
     header,nav,main,footer{
         margin-left: calc(50vw - 500px);
