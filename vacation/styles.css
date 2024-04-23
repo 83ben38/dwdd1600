@@ -108,7 +108,7 @@ nav {
 input[type=submit]{
     border-radius: 10px;
     border-style: solid;
-    border-color: #000;
+    border-color: #E6AB00;
 }
 input[type=submit]:focus{
     border-color: #FFF;

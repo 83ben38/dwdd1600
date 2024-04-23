@@ -24,7 +24,35 @@
         </ul>
     </nav>
     <main>
-        
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact info</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required autocomplete="given-name">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" required autocomplete="family-name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required autocomplete="email">
+                <label for="pnum">Phone Number:</label>
+                <input type="tel" name="pnum" id="pnum" autocomplete="tel">
+            </fieldset>
+            <fieldset>
+                <legend>Details</legend>
+                <label for="problem">What do you need help with?</label>
+                <textarea name="problem" id="problem" cols="30" rows="10" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Time frame</legend>
+                <label for="time">What time frame can we contact you?</label>
+                <select name="time" id="time" required>
+                    <option value="morning">6:00 AM - 12:00 PM</option>
+                    <option value="morning">12:00 PM - 6:00 PM</option>
+                    <option value="morning">6:00 PM - 12:00 AM</option>
+                    <option value="morning">12:00 AM - 6:00 AM</option>
+                </select>
+            </fieldset>
+            <input type="submit"> 
+        </form>
     </main>
     <footer>
         <address>930 500 E, Heber City, UT 84032</address>
